@@ -1,0 +1,173 @@
+html body {
+    margin: 0px; /* убирает отступы от краев экрана*/
+}
+
+body {
+    background-image: url(osmos.jpg); /* картинка на фон*/
+    color:seashell; /* цвет букв */
+    text-shadow: #ffffff 0 0 18px; /* тень букв*/
+    font-size: 18px; /* размер букв */
+    min-width: 1350px;
+
+}
+
+.conter {
+    max-width: 1350px;
+    margin: 15px;
+}
+
+
+.menu {
+    height: 70px; /* высота меню */
+    min-width: 100%; /* шинира меню */
+    background-image: url(osmos.jpg); /* фоновая картина */
+    background: rgba(77, 76, 76, 0.5); /* цвет фона (для полупрозрачной заливки) */
+    font-size: 23px; /* размер букв */
+    text-shadow: #ffffff 0 0 22px;  /* тени букв */  
+    top: 0px; /* прижимает к верхней границе */
+    border-bottom: gray 0px solid; /* нижняя граница */
+    box-shadow: rgb(131, 130, 131) 0 0 11px; /* тени границы */
+    position: fixed; /* фиксировано на экране */
+}
+
+.menu li {
+    display:inline-block; /* блочные в строчные */
+
+    margin: 0px 20px 0px; /* расстрояние между элементами */
+   
+}
+
+
+
+a {
+    text-decoration: none;  /* убирает подчеркивание */
+    font-size: 24px; 
+    font-family: Algerian;
+    font-weight: 400;
+    color: rgb(136, 136, 136);
+    
+    
+}
+
+a:hover {
+    text-decoration: underline; /* включает подчеркивание при наведении */
+}
+
+h1 {
+    font-family: Algerian, sans-serif; 
+    font-weight: 100;
+    font-size: 53px;
+    margin-top: 155px; /* отступ */
+    left: 38%; /* отступ слева */
+    bottom: 8%; /* отступ вниз */
+    position: absolute; /* позиционирование элемента, можно двигать его как удобно и не влиять на другие */
+    color:rgb(228, 213, 213) 
+    
+} 
+
+.logo img{
+    width: 420px;
+    height: 420px;
+    border-radius: 50%; /* преобразует в круг при правильном исходнике */
+    transition: all 3s; /* включает взаимодействие все с курсором и устанавливает время*/
+    margin-top: 300px; 
+    margin-left: 35%;
+    border: rgb(167, 166, 166) 2px solid; 
+    box-shadow: rgb(255, 255, 255) 0 0 55px; /* тени границы */    
+    
+}
+
+.logo img:hover { 
+    transform: rotate(360deg) scale(3.0) ;
+}
+
+img {
+    transition: 1s;
+    box-shadow: 0px 0px 15px 10px rgb(255, 255, 255);
+}
+
+img:hover { 
+    transform: scale(1.5);
+}
+
+.post1 {
+    margin: 20px;
+    margin-top: 150px;
+    margin-right: 200px;
+    padding: 77px;
+    background: rgba(0,0,0,0.5);
+    border: rgb(167, 166, 166) 2px solid;
+    box-shadow: rgb(255, 255, 255) 0 0 55px; 
+    border-radius: 10px;
+ }
+
+.photo1 {
+    width: 200px;
+    float: left;
+    margin: 20px 40px 0px 0; /* Отступы вокруг картинки */
+    border-radius: 10px;
+}
+
+.post2 {
+    margin: 20px;
+    margin-top: 150px;
+    margin-left: 200px;
+    padding: 77px;
+    background: rgba(0,0,0,0.5);
+    border: rgb(167, 166, 166) 2px solid;
+    box-shadow: rgb(255, 255, 255) 0 0 55px; 
+    border-radius: 10px;
+ }
+
+.photo2 {
+    width: 200px;
+    float: right;
+    margin: 20px 0px 0px 40px; /* Отступы вокруг картинки */
+    border-radius: 10px;
+}
+
+.post3 {
+    margin: 20px;
+    margin-top: 150px;
+    margin-right: 200px;
+    padding: 77px;
+    background: rgba(0,0,0,0.5);
+    border: rgb(167, 166, 166) 2px solid;
+    box-shadow: rgb(255, 255, 255) 0 0 55px; 
+    border-radius: 10px;
+ }
+
+
+
+.photo3 {
+    width: 200px;
+    float: left;
+    margin: 20px 40px 0px 0; /* Отступы вокруг картинки */
+    border-radius: 10px;
+
+}
+
+.post4 {
+    margin: 20px;
+    margin-top: 150px;
+    
+    padding: 40px;
+    background: rgba(0,0,0,0.5);
+    border: rgb(167, 166, 166) 2px solid;
+    box-shadow: rgb(255, 255, 255) 0 0 55px;
+    border-radius: 10px;
+ }
+
+
+.post5 {
+    margin-top: 200px;
+    bottom: 0px;
+    border-radius: 10px;
+    padding: 5px;
+    background: rgba(0,0,0,0.5);
+    border: rgb(167, 166, 166) 2px solid;
+    box-shadow: rgb(255, 255, 255) 0 0 55px;
+}
+
+
+
